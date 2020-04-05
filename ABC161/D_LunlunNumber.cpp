@@ -6,13 +6,13 @@ int main(void)
 	int K;
 	cin >> K;
 
-	queue<int> q;
+	queue<long int> q;
 
 	for (int i = 1; i < 10; i++) {
 		q.push(i);
 	}
 
-	int x = 0;
+	long int x = 0;
 	for (int i = 0; i < K; i++) {
 		x = q.front();
 		q.pop();
